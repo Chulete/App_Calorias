@@ -16,8 +16,9 @@ with col1:
 	peso_alimento = st.number_input("Peso del alimento")
 with col2:
 	calorias = st.number_input("Calorías por cada 100 gramos")
-	total_calorias = (peso_alimento * calorias) / 100
-	st.write(f"{total_calorias} calorías")
+
+total_calorias = (peso_alimento * calorias) / 100
+st.write(f"{total_calorias} calorías")
 
 
 
