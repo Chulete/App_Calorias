@@ -26,7 +26,7 @@ with col3:
 	peso_alimento_2 = st.number_input("Peso del alimento")
 with col4:
 	calorias_2 = st.number_input("Calorías por cada 100 gramos")
-if peso_alimento_2 is not None and calorias is not None:
+if peso_alimento_2 is not None and calorias_2 is not None:
 	total_calorias_2 = (peso_alimento_2 * calorias_2) / 100
 	st.write(f"{total_calorias_2} calorías")
 
@@ -35,7 +35,7 @@ with col5:
 	peso_alimento_3 = st.number_input("Peso del alimento")
 with col6:
 	calorias_3 = st.number_input("Calorías por cada 100 gramos")
-if peso_alimento_3 is not None and calorias is not None:
+if peso_alimento_3 is not None and calorias_3 is not None:
 	total_calorias_3 = (peso_alimento_3 * calorias_3) / 100
 	st.write(f"{total_calorias_3} calorías")
 
