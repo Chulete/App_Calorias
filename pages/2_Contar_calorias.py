@@ -17,9 +17,28 @@ with col1:
 	peso_alimento = st.number_input("Peso del alimento")
 with col2:
 	calorias = st.number_input("Calorías por cada 100 gramos")
-if peso_alimento is not None and calorias is not None:
 	total_calorias = (peso_alimento * calorias) / 100
 	st.write(f"{total_calorias} calorías")
+
+col3, col4 = st.columns([2,2])
+with col3:
+	peso_alimento_2 = st.number_input("Peso del alimento 2")
+with col4:
+	calorias_2 = st.number_input("Calorías por cada 100 gramos")
+	total_calorias_2 = (peso_alimento_2 * calorias_2) / 100
+	st.write(f"{total_calorias_2} calorías")
+
+col5, col6 = st.columns([2,2])
+with col5:
+	peso_alimento_3 = st.number_input("Peso del alimento 3")
+with col6:
+	calorias_3 = st.number_input("Calorías por cada 100 gramos")
+	total_calorias_3 = (peso_alimento_3 * calorias_3) / 100
+	st.write(f"{total_calorias_3} calorías")
+
+suma_total_calorias = total_calorias + total_calorias_2 + total_calorias_3
+st.write(f'Total calorías añadidas {suma_total_calorias}')
+
 
 
 
