@@ -13,6 +13,7 @@ titulo = """
 
 # Función main()
 def main():
+	st.info('App creada por Jesús Tejedo durante el Máster de Data Science de MBIT School')
 	st.markdown("""
 		<style>
 		body {background-color: yellow;}
