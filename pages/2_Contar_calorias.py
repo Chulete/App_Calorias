@@ -7,7 +7,7 @@ import base64
 
 
 
-df_fruta = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_fruta.xlsx")
+df_fruta = pd.read_excel("https://docs.google.com/spreadsheets/d/1kIXM95WfLygUXIHcpBBFkGMHnrDhrnTU/edit#gid=729249405")
 df_verdura = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_verdura.xlsx")
 df_carne = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_carne.xlsx")
 df_pescado = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_pescado.xlsx")
