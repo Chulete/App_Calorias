@@ -2,9 +2,6 @@
 import pandas as pd 
 import streamlit as st
 import streamlit.components.v1 as stc
-#from alcanzar_peso_ideal import run_alcanzar_peso_ideal
-#from contar_calorias import run_contar_calorias
-#from calorias_diarias import run_calorias_diarias
 
 titulo = """
 		<div style="background-color:rgb(0, 167, 179);padding:10px;border-radius:10px">
