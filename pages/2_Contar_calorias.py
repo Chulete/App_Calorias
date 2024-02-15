@@ -7,11 +7,11 @@ import base64
 
 
 
-df_fruta = pd.read_excel("C:/Users/34610/Desktop/Mis_apps/Healthy/calorias_alimentos/calorias_fruta.xlsx")
-df_verdura = pd.read_excel("C:/Users/34610/Desktop/Mis_apps/Healthy/calorias_alimentos/calorias_verdura.xlsx")
-df_carne = pd.read_excel("C:/Users/34610/Desktop/Mis_apps/Healthy/calorias_alimentos/calorias_carne.xlsx")
-df_pescado = pd.read_excel("C:/Users/34610/Desktop/Mis_apps/Healthy/calorias_alimentos/calorias_pescado.xlsx")
-df_pasta = pd.read_excel("C:/Users/34610/Desktop/Mis_apps/Healthy/calorias_alimentos/calorias_pasta.xlsx")
+df_fruta = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_fruta.xlsx")
+df_verdura = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_verdura.xlsx")
+df_carne = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_carne.xlsx")
+df_pescado = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_pescado.xlsx")
+df_pasta = pd.read_excel("https://github.com/Chulete/App_Calorias/blob/master/calorias_alimentos/calorias_pasta.xlsx")
 st.subheader("Cómo las cuento")
 stc.iframe("https://i.pinimg.com/originals/c5/a2/4d/c5a24d98dcd5eae25128f7b04f04223a.gif",
 	height=420, width=800, scrolling=True)
